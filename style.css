@@ -9,3 +9,12 @@
     color: rgb(95, 165, 42);
 }
 
+#negrito {
+    font-weight: bold;
+}
+#italico {
+    font-style: italic;
+}
+#sublinhado {
+    text-decoration: underline;
+}
