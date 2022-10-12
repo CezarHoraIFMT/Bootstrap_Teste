@@ -52,6 +52,24 @@
      </div>
 
 
+     <div>
+        <script> $(document).ready(function() 
+            {   $("p").on({ 
+                mouseenter: function() {
+                $(this).css("background-color","lightgray");
+                },
+                mouseleave: function() {
+                $(this).css("background-color","lightblue");
+                },
+                click: function() {
+                $(this).css("background-color", "yellow"); 
+                }
+            });
+        });
+        </script> 
+            <p>click or move the mouse pointer over this paragraph.</p>
+     </div>
+
 
 
 <div class="container">
